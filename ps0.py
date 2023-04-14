@@ -5,7 +5,7 @@
 # Time:
 #
 
-# A Very Simple Program: Entering and Printing Yo ur Name
+# A Very Simple Program: Entering and Printing Your Name
 # The goal of this programming exercise is simply to get you more comfortable with using IDLE,
 # and to begin using simple elements of Python. Standard elements of a program include the
 # ability to print out results (using the print operation), the ability to read input from a user at the
