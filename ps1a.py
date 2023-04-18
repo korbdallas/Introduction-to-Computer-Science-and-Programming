@@ -85,7 +85,7 @@ while (y < z):
              num=num+1
 
           
-else: print (num, "Is the 1000th prime itteration")
+else: print (num-1, "Is the 1000th prime itteration")
 
 
      
