@@ -1,25 +1,30 @@
 
-# Problem Set 0
-# Name: Michael Colombo
-# Collaborators:
-# Time:
-#
+#Problem Set #0
 
-# A Very Simple Program: Entering and Printing Your Name
-# The goal of this programming exercise is simply to get you more comfortable with using IDLE,
-# and to begin using simple elements of Python. Standard elements of a program include the
-# ability to print out results (using the print operation), the ability to read input from a user at the
-# console (for example using the raw_input operation), and the ability to store values in a
-# variable, so that the program can access that value as needed.
-# Problem 1.
-# Write a program that does the following in order:
-# 1. Asks the user to enter his/her last name.
-# 2. Asks the user to enter his/her first name.
-# 3. Prints out the user’s first and last names in that order
+#Problem 1
+#Write a program that does the following in order:
+#Asks the user to enter his/her date of birth.
+#Asks the user to enter his/her last name.
+#Prints out the user’s last name and date of birth, in that order.
+#An example of an interaction with your program is shown below (the words printed in blue are from the
+#computer, based on your commands, the words in black are a user’s input – the colors are simply here to
+#help you distinguish the two components):
+#
+#Enter your date of birth:
+#**01/26/32
+#Enter your last name:
+#**Grimson
+#Grimson 01/26/32
+
+# Problem Set 0
+# Name: Michael Colombo 
+# Collaborators:
+# Time Spent:
+
 
 #!/usr/bin/env python
 
-LastName=input("What is your last name? ") # Gather last name
-FirstName=input("What is your first name? ") # gather first name
+birthday=input("Enter your date of birth in mm/dd/yy format: \n")
+lastname=input("Enter your last name: \n")
 
-print (FirstName + " " + LastName) # print names in expected order
+print(lastname + " " + birthday)
